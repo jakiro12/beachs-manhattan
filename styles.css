@@ -1,0 +1,101 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 13% 13% 74%;
+}
+nav{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+.options_f{
+
+    width: 80%;
+    height: 100%;
+    margin-inline:auto ;
+    display: flex;
+    justify-content: space-between;
+}
+.start{
+    width: 15%;
+    height: 100%;
+    outline: 2px solid white;
+    display: grid;
+    place-items: center;
+    background-image: url('https://www.shutterstock.com/image-vector/sun-end-word-sunshine-concept-260nw-1929748433.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.opciones_dos{
+    width: 60%;
+    height: 100%;
+  
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.opciones_3{
+    width: 15%;
+    height: 100%;
+    color: yellow;
+    display: grid;
+    place-items: center;
+}
+.contact{
+    width: fit-content;
+    height: fit-content;
+    cursor: pointer;
+}
+.menu{
+    font-size: larger;
+    text-decoration: underline;
+    cursor: pointer;
+    font-size: 14px;
+}
+main{
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 50% 50%;
+    background-image: url('https://assets3.thrillist.com/v1/image/2835649/1200x630/flatten;crop_down;webp=auto;jpeg_quality=70');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    position: relative;
+}
+main > button{
+    width: fit-content;
+    height: fit-content;
+    margin-inline:auto ;
+    background-color: yellow;
+    color: black;
+    border: none;
+    cursor: pointer;
+    padding: 2%;
+    font-weight: 600;
+    font-size: 20px;
+}
+main > h1{
+    margin: auto;
+    font-size: 70px;
+    text-align: center;
+
+}
+.banner{
+    background-color: orange;
+}
+.box_alert{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    border: 2px solid green;
+    position: absolute;
+    left: 40%;
+    top: 20%;
+}
