@@ -88,6 +88,9 @@ main > h1{
 
 }
 .banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: orange;
 }
 .box_alert{
